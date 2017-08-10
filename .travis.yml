@@ -20,4 +20,5 @@ before_script:
   - php artisan serve > /dev/null 2>&1 &
 
 script:
+  - vendor/bin/phpunit
   - php artisan dusk
